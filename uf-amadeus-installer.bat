@@ -58,7 +58,6 @@ set "ICON_PATH=%CD%\AmadeusGPT_Source\static\favicon.ico"
 echo [+] Linking Desktop Shortcut to Repository Launch Script...
 
 :: Create the shortcut using PowerShell
-:: Note: This points to 'launch.bat' which you will create later inside the repo folder.
 powershell -ExecutionPolicy Bypass -Command "$s=(New-Object -COM WScript.Shell).CreateShortcut('%SHORTCUT_PATH%'); $s.TargetPath='%TARGET_BAT%'; $s.WorkingDirectory='%CD%\AmadeusGPT_Source'; if (Test-Path '%ICON_PATH%') { $s.IconLocation='%ICON_PATH%' } else { $s.IconLocation='C:\Windows\System32\shell32.dll, 22' }; $s.Save()"
 
 echo.
