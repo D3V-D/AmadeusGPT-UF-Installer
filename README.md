@@ -10,4 +10,5 @@ A single `.bat` file you can double click to get started on **AmadeusGPT-UF**.
 * ⚙️ **Double click** the `.bat` file to run it.
 * ✅ Once it finishes running, AmadeusGPT should be installed. *You can close the window.*
 * 🖥️ There will be a shortcut **on your desktop** labeled **'UF Amadeus GPT'**.
-* You can click this to launch! 🚀
+
+Then, as simple as that, you're done! You can double click this shortcut to launch 🚀
